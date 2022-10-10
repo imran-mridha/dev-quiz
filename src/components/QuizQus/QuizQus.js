@@ -7,15 +7,13 @@ const QuizQus = () => {
   const quizQusData = useLoaderData();
   // console.log(quizQusData.data.name);
   const quizQus = quizQusData.data.questions;
-  
+
 
   return (
-    <div>
-      
+    <div className='z-0'>
       <h2 className='text-white text-4xl text-center my-10 uppercase'>Quiz Topic : <span className='text-violet-600 font-bold '>{quizQusData.data.name}</span> </h2>
-      <h2> </h2>
       {
-        quizQus.map(ques => <Ques key = {ques.id} ques = {ques} />)
+        quizQus.map((ques, index) => <Ques key = {ques.id} ques = {ques} index = {index}/>)
       }
     </div>
   );
