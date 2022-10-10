@@ -1,17 +1,18 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 
 const Quiz = ({ quiz }) => {
-  console.log(quiz);
-  const { logo, name, total } = quiz;
+  // console.log(quiz);
+  const {id, logo, name, total } = quiz;
   return (
     <div className='bg-gray-100 p-5 rounded-lg'>
-      <img className='border border-gray-300 rounded-lg' src={logo} alt="" />
+      <img className='border border-gray-300 rounded-lg bg-violet-500' src={logo} alt="" />
       <div className='flex justify-between my-10 p-2 rounded text-xl'>
         <p>{name}</p>
         <p>Quiz: {total}</p>
       </div>
       <div>
-        <button className='bg-violet-500 hover:bg-violet-700 w-full py-2 rounded-lg text-white text-xl font-semibold'>Start Quiz</button>
+        <button className='bg-violet-500 hover:bg-violet-700 w-full py-2 rounded-lg text-white text-xl font-semibold'> <Link to={`/quiz/${id}`}>Start Quiz</Link> </button>
       </div>
     </div>
   );

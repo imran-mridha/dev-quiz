@@ -1,13 +1,11 @@
-import React from 'react';
+import React,{useContext} from 'react';
+import { QuizContext } from '../../Layoutes/Main';
 import Hero from '../Hero/Hero';
-import { useLoaderData } from 'react-router-dom';
 import Quiz from '../Quiz/Quiz';
 
 
 const Home = () => {
-  const quizesData = useLoaderData();
-  const quizes = quizesData.data;
-  console.log(quizes)
+  const quizes = useContext(QuizContext);
   return (
     <div className='bg-gray-900 py-10'>
       <div>
