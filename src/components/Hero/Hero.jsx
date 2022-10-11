@@ -1,5 +1,5 @@
 import React from 'react';
-import Lottie from 'lottie-react'
+import Lottie from 'lottie-react';
 import reader from '../../assets/quiz-program.json'
 
 const Hero = () => {

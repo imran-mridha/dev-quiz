@@ -24,8 +24,8 @@ const Header = () => {
             <li>
               <NavLink
                 to="/home"
-                aria-label="Our product"
-                title="Our product"
+                aria-label="Home"
+                title="Home"
                 className={({ isActive }) => isActive ? `text-violet-500` : `font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400`
                 }
               >
@@ -35,8 +35,8 @@ const Header = () => {
             <li>
               <NavLink
                 to="/topics"
-                aria-label="About us"
-                title="About us"
+                aria-label="Topics"
+                title="Topics"
                 className={({ isActive }) => isActive ? `text-violet-500` : `font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400`
                 }
               >
@@ -46,8 +46,8 @@ const Header = () => {
             <li>
               <NavLink
                 to="/statistics"
-                aria-label="Our product"
-                title="Our product"
+                aria-label="Statistics"
+                title="Statistics"
                 className={({ isActive }) => isActive ? `text-violet-500` : `font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400`
                 }
               >
@@ -57,12 +57,23 @@ const Header = () => {
             <li>
               <NavLink
                 to="/blog"
-                aria-label="Product pricing"
-                title="Product pricing"
+                aria-label="Blog"
+                title="Blog"
                 className={({ isActive }) => isActive ? `text-violet-500` : `font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400`
                 }
               >
                 Blog
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/contact"
+                aria-label="Contact"
+                title="Contact"
+                className={({ isActive }) => isActive ? `text-violet-500` : `font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400`
+                }
+              >
+                Contact
               </NavLink>
             </li>
           </ul>
@@ -125,8 +136,8 @@ const Header = () => {
                       <li>
                         <NavLink
                           to="/home"
-                          aria-label="Our product"
-                          title="Our product"
+                          aria-label="Home"
+                          title="Home"
                           className={({ isActive }) => isActive ? `text-violet-500` : `font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400`
                           }
                         >
@@ -136,8 +147,8 @@ const Header = () => {
                       <li>
                         <NavLink
                           to="/topics"
-                          aria-label="About us"
-                          title="About us"
+                          aria-label="Topics"
+                          title="Topics"
                           className={({ isActive }) => isActive ? `text-violet-500` : `font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400`
                           }
                         >
@@ -147,8 +158,8 @@ const Header = () => {
                       <li>
                         <NavLink
                           to="/statistics"
-                          aria-label="Our product"
-                          title="Our product"
+                          aria-label="Statistics"
+                          title="Statistics"
                           className={({ isActive }) => isActive ? `text-violet-500` : `font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400`
                           }
                         >
@@ -158,12 +169,23 @@ const Header = () => {
                       <li>
                         <NavLink
                           to="/blog"
-                          aria-label="Product pricing"
-                          title="Product pricing"
+                          aria-label="Blog"
+                          title="Blog"
                           className={({ isActive }) => isActive ? `text-violet-500` : `font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400`
                           }
                         >
                           Blog
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          to="/contact"
+                          aria-label="Contact"
+                          title="Contact"
+                          className={({ isActive }) => isActive ? `text-violet-500` : `font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400`
+                          }
+                        >
+                          Contact
                         </NavLink>
                       </li>
                     </ul>
