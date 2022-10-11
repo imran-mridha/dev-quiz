@@ -27,20 +27,31 @@ const Header = () => {
                 aria-label="Our product"
                 title="Our product"
                 className={({ isActive }) => isActive ? `text-violet-500` : `font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400`
-              }
+                }
               >
                 Home
               </NavLink>
             </li>
             <li>
               <NavLink
-                to="/statics"
+                to="/topics"
+                aria-label="About us"
+                title="About us"
+                className={({ isActive }) => isActive ? `text-violet-500` : `font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400`
+                }
+              >
+                Topics
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/statistics"
                 aria-label="Our product"
                 title="Our product"
                 className={({ isActive }) => isActive ? `text-violet-500` : `font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400`
-              }
+                }
               >
-                Statics
+                Statistics
               </NavLink>
             </li>
             <li>
@@ -49,31 +60,9 @@ const Header = () => {
                 aria-label="Product pricing"
                 title="Product pricing"
                 className={({ isActive }) => isActive ? `text-violet-500` : `font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400`
-              }
+                }
               >
                 Blog
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to="/about"
-                aria-label="About us"
-                title="About us"
-                className={({ isActive }) => isActive ? `text-violet-500` : `font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400`
-              }
-              >
-                About us
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to="/contact"
-                aria-label="About us"
-                title="About us"
-                className={({ isActive }) => isActive ? `text-violet-500` : `font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400`
-              }
-              >
-                Contact
               </NavLink>
             </li>
           </ul>
@@ -139,20 +128,31 @@ const Header = () => {
                           aria-label="Our product"
                           title="Our product"
                           className={({ isActive }) => isActive ? `text-violet-500` : `font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400`
-                        }
+                          }
                         >
                           Home
                         </NavLink>
                       </li>
                       <li>
                         <NavLink
-                          to="/statics"
+                          to="/topics"
+                          aria-label="About us"
+                          title="About us"
+                          className={({ isActive }) => isActive ? `text-violet-500` : `font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400`
+                          }
+                        >
+                          Topics
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          to="/statistics"
                           aria-label="Our product"
                           title="Our product"
                           className={({ isActive }) => isActive ? `text-violet-500` : `font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400`
-                        }
+                          }
                         >
-                          Statics
+                          Statistics
                         </NavLink>
                       </li>
                       <li>
@@ -161,31 +161,9 @@ const Header = () => {
                           aria-label="Product pricing"
                           title="Product pricing"
                           className={({ isActive }) => isActive ? `text-violet-500` : `font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400`
-                        }
+                          }
                         >
                           Blog
-                        </NavLink>
-                      </li>
-                      <li>
-                        <NavLink
-                          to="/about"
-                          aria-label="About us"
-                          title="About us"
-                          className={({ isActive }) => isActive ? `text-violet-500` : `font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400`
-                        }
-                        >
-                          About us
-                        </NavLink>
-                      </li>
-                      <li>
-                        <NavLink
-                          to="/contact"
-                          aria-label="About us"
-                          title="About us"
-                          className={({ isActive }) => isActive ? `text-violet-500` : `font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400`
-                        }
-                        >
-                          contact
                         </NavLink>
                       </li>
                     </ul>

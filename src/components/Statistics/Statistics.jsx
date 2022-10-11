@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip,ResponsiveContainer } from 'recharts';
 import { QuizContext } from '../../Layoutes/Main';
 
-const Statics = () => {
+const Statistics = () => {
   const quizes = useContext(QuizContext)
   console.log(quizes)
   return (
@@ -16,7 +16,6 @@ const Statics = () => {
             <YAxis />
             <Tooltip labelClassName='text-violet-600 font-bold' />
             <Line type="monotone" dataKey="total" stroke="#82ca9d" />
-            {/* <Line type="monotone" dataKey="total" stroke="#82ca9d" /> */}
           </LineChart>
           </ResponsiveContainer>
         </div>
@@ -24,4 +23,4 @@ const Statics = () => {
   );
 };
 
-export default Statics;
+export default Statistics;

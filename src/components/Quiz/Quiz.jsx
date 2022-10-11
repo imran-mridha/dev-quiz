@@ -5,7 +5,7 @@ const Quiz = ({ quiz }) => {
   // console.log(quiz);
   const {id, logo, name, total } = quiz;
   return (
-    <div className='bg-gray-100 p-5 rounded-lg'>
+    <div className='bg-gray-50 p-5 rounded-lg shadow-2xl'>
       <img className='border border-gray-300 rounded-lg bg-violet-500' src={logo} alt="" />
       <div className='flex justify-between my-10 p-2 rounded text-xl'>
         <p>{name}</p>

@@ -11,7 +11,7 @@ const Faq = () => {
             className="flex cursor-pointer items-center justify-between rounded-lg p-4"
           >
             <h5 className="font-medium text-white text-2xl">
-              Lorem ipsum dolor sit amet consectetur adipisicing?
+            What is the purpose of react router?
             </h5>
 
             <svg
@@ -31,10 +31,7 @@ const Faq = () => {
           </summary>
 
           <p className=" px-4 leading-relaxed text-white py-5">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic veritatis
-            molestias culpa in, recusandae laboriosam neque aliquid libero nesciunt
-            voluptate dicta quo officiis explicabo consequuntur distinctio corporis
-            earum similique!
+          React Router is a standard library for routing in React. It enables the navigation among views of various components in a React Application, allows changing the browser URL, and keeps the UI in sync with the URL.
           </p>
         </details>
         <details className="group border border-violet-500 rounded-lg mb-5">
@@ -42,7 +39,7 @@ const Faq = () => {
             className="flex cursor-pointer items-center justify-between rounded-lg p-4"
           >
             <h5 className="font-medium text-white text-2xl">
-              Lorem ipsum dolor sit amet consectetur adipisicing?
+            How does context api works?
             </h5>
 
             <svg
@@ -62,10 +59,7 @@ const Faq = () => {
           </summary>
 
           <p className=" px-4 leading-relaxed text-white py-5">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic veritatis
-            molestias culpa in, recusandae laboriosam neque aliquid libero nesciunt
-            voluptate dicta quo officiis explicabo consequuntur distinctio corporis
-            earum similique!
+          The React Context API is a way for a React app to effectively produce global variables that can be passed around. This is the alternative to "prop drilling" or moving props from grandparent to child to parent.It returns a consumer and a provider. Provider is a component that as it's names suggests provides the state to its children. It will hold the "store" and be the parent of all the components that might need that store. Consumer as it so happens is a component that consumes and uses the state.
           </p>
         </details>
         <details className="group border border-violet-500 rounded-lg">
@@ -73,7 +67,7 @@ const Faq = () => {
             className="flex cursor-pointer items-center justify-between rounded-lg p-4"
           >
             <h5 className="font-medium text-white text-2xl">
-              Lorem ipsum dolor sit amet consectetur adipisicing?
+            What is useRef?
             </h5>
 
             <svg
