@@ -11,7 +11,8 @@ const Ques = ({ ques,index }) => {
     if (option === correctAnswer) {
       toast.success('Wow!! Correct Answer', { autoClose: 500 })
     } else {
-      toast.warning('Opps!! Wrong Answer', { autoClose: 500 })
+      toast.error('Opps!! Wrong Answer', { autoClose: 500 })
+      // toast.error('lkhfc')
     }
   }
   const showCorrectAnswer = (correctAnswer) => {
@@ -26,7 +27,7 @@ const Ques = ({ ques,index }) => {
       </div>
       <div className=''>
         {
-          ques.options.map((option, idx) => <Options key={idx} option={option} handleCorrectAnswer={handleCorrectAnswer} />)
+          ques.options.map((option, idx) => <Options key={idx} option={option} handleCorrectAnswer={handleCorrectAnswer} idx = {idx}/>)
         }
       </div>
     </div>
