@@ -13,11 +13,26 @@ Hosted in Netlify -> [DevQuiz](https://dev-quiz-imran.netlify.app/)
 * React Toastify
 * lottie-react
 * Tailwind
-* Mambaui & Kitwind
+* Mambaui
 * Kitwind
 * Hyperui
 * Hero Icon
 * Rechart
+
+### QUIZ API LINK:
+
+* Get all quiz topics:
+   ```sh
+   https://openapi.programming-hero.com/api/quiz
+   ```
+* Get topic details by topic id:
+   ```sh
+   https://openapi.programming-hero.com/api/quiz/${id}
+   ```
+* Example:
+   ```sh
+   https://openapi.programming-hero.com/api/quiz/1
+   ```
 
 ### Installation
 1. Clone the repo
