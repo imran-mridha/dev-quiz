@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import ErrorPage from "../components/ErrorPage/ErrorPage";
 import Home from "../components/Home/Home";
 import QuizQus from "../components/QuizQus/QuizQus";
+import Statics from "../components/Statics/Statics";
 import Main from "../Layoutes/Main";
 
 export const router = createBrowserRouter([
@@ -22,9 +23,13 @@ export const router = createBrowserRouter([
       },
       {
         path: '/quiz/:quizId',
-        loader: async({params})=>fetch(`https://openapi.programming-hero.com/api/quiz/${params.quizId}`),
+        loader: async ({ params }) => fetch(`https://openapi.programming-hero.com/api/quiz/${params.quizId}`),
         element: <QuizQus />
-    }
-  ]
+      },
+      {
+        path: '/statics',
+        element: <Statics />,
+      }
+    ]
   }
 ])
