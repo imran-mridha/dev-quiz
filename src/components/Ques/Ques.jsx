@@ -21,7 +21,7 @@ const Ques = ({ ques,index }) => {
       <EyeIcon onClick={() => showCorrectAnswer(correctAnswer)} className="h-6 w-6 text-violet-500 absolute top-5 right-5 cursor-pointer" />
       <div className='mb-10'>
         <span className='text-2xl text-violet-500 font-semibold'>Quiz {index + 1} : </span>
-        <span className='text-2xl mb-10'>{ques.question}</span>
+        <span className='text-2xl mb-10'>{ques.question.slice(3,-4)}</span>
       </div>
       <div className=''>
         {
