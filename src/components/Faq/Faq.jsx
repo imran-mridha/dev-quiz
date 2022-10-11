@@ -87,10 +87,7 @@ const Faq = () => {
           </summary>
 
           <p className=" px-4 leading-relaxed text-white py-5">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic veritatis
-            molestias culpa in, recusandae laboriosam neque aliquid libero nesciunt
-            voluptate dicta quo officiis explicabo consequuntur distinctio corporis
-            earum similique!
+          The useRef returns a mutable ref object. This object has a property called .current. The value is persisted in the refContainer.current property. These values are accessed from the current property of the returned object. The .current property could be initialised to the passed argument initialValue e.g. useRef(initialValue). The object can persist a value for a full lifetime of the component. 
           </p>
         </details>
 

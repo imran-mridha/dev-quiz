@@ -6,7 +6,7 @@ const Quiz = ({ quiz }) => {
   const {id, logo, name, total } = quiz;
   return (
     <div className='bg-gray-50 p-5 rounded-lg shadow-2xl'>
-      <img className='border border-gray-300 rounded-lg bg-violet-500' src={logo} alt="" />
+      <img className='border border-gray-300 rounded-lg bg-violet-500 w-11/12 md:w-full mx-auto' src={logo} alt="" />
       <div className='flex justify-between my-10 p-2 rounded text-xl'>
         <p>{name}</p>
         <p>Quiz: {total}</p>

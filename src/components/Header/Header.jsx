@@ -8,7 +8,7 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   return (
     <header className="p-4 text-gray-100 border-b border-violet-500">
-      <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+      <div className="w-11/12 mx-auto">
         <div className="relative flex items-center justify-between">
           <NavLink
             to="/"
