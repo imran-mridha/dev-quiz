@@ -6,6 +6,16 @@ A simple React app built with React & React Router Dom.
 
 Hosted in Netlify -> [DevQuiz](https://dev-quiz-imran.netlify.app/)
 
+### Installation
+1. Clone the repo
+   ```sh
+   git clone https://github.com/programming-hero-web-course2/b6-quiz-crackerz-imran-mridha.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+
 ### Built With
 
 * React
@@ -34,12 +44,3 @@ Hosted in Netlify -> [DevQuiz](https://dev-quiz-imran.netlify.app/)
    https://openapi.programming-hero.com/api/quiz/1
    ```
 
-### Installation
-1. Clone the repo
-   ```sh
-   git clone https://github.com/programming-hero-web-course2/b6-quiz-crackerz-imran-mridha.git
-   ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
