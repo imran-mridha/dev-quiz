@@ -1,4 +1,3 @@
-import React from 'react';
 import { toast } from 'react-toastify';
 import Options from '../Options/Options';
 import { EyeIcon } from '@heroicons/react/24/solid'
@@ -9,9 +8,9 @@ const Ques = ({ ques,index }) => {
 
   const handleCorrectAnswer = option => {
     if (option === correctAnswer) {
-      toast.success('Wow!! Correct Answer', { autoClose: 500 })
+      toast.success('Wow!! Correct Answer !!', { autoClose: 500 })
     } else {
-      toast.error('Opps!! Wrong Answer', { autoClose: 500 })
+      toast.error('Opps!! Wrong Answer !!', { autoClose: 500 })
     }
   }
   const showCorrectAnswer = (correctAnswer) => {

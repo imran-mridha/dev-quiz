@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
 
 const Quiz = ({ quiz }) => {
   // console.log(quiz);
@@ -12,7 +12,10 @@ const Quiz = ({ quiz }) => {
         <p>Quiz: {total}</p>
       </div>
       <div>
-      <Link to={`/quiz/${id}`}><button className='bg-violet-500 hover:bg-violet-700 w-full py-2 rounded-lg text-white text-xl font-semibold'> Start Quiz</button></Link> 
+      <Link to={`/quiz/${id}`}>
+        <button className='bg-violet-500  hover:bg-violet-700 w-full py-2 rounded-lg text-white text-xl font-semibold'> Start Quiz <span className='mx-2'></span> 
+        </button>
+      </Link> 
       </div>
     </div>
   );

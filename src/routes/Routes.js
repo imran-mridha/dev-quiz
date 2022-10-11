@@ -1,5 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import ErrorPage from "../components/ErrorPage/ErrorPage";
+import Faq from "../components/Faq/Faq";
 import Home from "../components/Home/Home";
 import QuizQus from "../components/QuizQus/QuizQus";
 import Statics from "../components/Statics/Statics";
@@ -29,6 +30,10 @@ export const router = createBrowserRouter([
       {
         path: '/statics',
         element: <Statics />,
+      },
+      {
+        path: '/blog',
+        element: <Faq />
       }
     ]
   }

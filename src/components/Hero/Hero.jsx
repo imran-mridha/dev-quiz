@@ -9,7 +9,7 @@ const Hero = () => {
         <div className='flex flex-col  justify-center'>
           <div>
             <h2 className='text-4xl text-white font-semibold uppercase'>WellCome To Dev<span className='text-violet-500'>Quiz</span> </h2>
-            <p className='py-5 text-white text-xl'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate qui eaque, inventore ipsam itaque cum neque blanditiis velit! Accusamus, modi!</p>
+            <p className='py-5 text-white text-xl'>Dev Quiz provides challenges for several different topics such as React, Javascript, CSS, Git and more. You can test your knowledge directly online.</p>
           </div>
         </div>
         <div className='flex justify-end'>
