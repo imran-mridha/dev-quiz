@@ -3,7 +3,7 @@ import Options from '../Options/Options';
 import { EyeIcon } from '@heroicons/react/24/solid'
 
 const Ques = ({ ques,index }) => {
-  // console.log(ques)
+  
   const correctAnswer = ques.correctAnswer;
 
   const handleCorrectAnswer = option => {

@@ -2,7 +2,6 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 
 const Quiz = ({ quiz }) => {
-  // console.log(quiz);
   const {id, logo, name, total } = quiz;
   return (
     <div className='bg-gray-50 p-5 rounded-lg shadow-2xl'>

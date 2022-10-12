@@ -3,7 +3,7 @@ import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip,ResponsiveContain
 import { QuizContext } from '../../Layoutes/Main';
 
 const Statistics = () => {
-  const quizes = useContext(QuizContext)
+  const quizes = useContext(QuizContext);
   return (
     <div className='my-10'>
       <h2 className='text-4xl text-center text-white'>Quiz <span className='text-violet-500 font-semibold'>Analysis</span> </h2>

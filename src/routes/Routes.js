@@ -26,7 +26,7 @@ export const router = createBrowserRouter([
       },
       {
         path: '/topics',
-        element: <Topics />,
+        element: <Topics />
       },
       {
         path: '/quiz/:quizId',
@@ -35,7 +35,7 @@ export const router = createBrowserRouter([
       },
       {
         path: '/statistics',
-        element: <Statistics />,
+        element: <Statistics />
       },
       {
         path: '/blog',
